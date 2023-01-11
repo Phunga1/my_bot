@@ -40,7 +40,7 @@ def generate_launch_description():
         package="controller_manager",
         executable="spawner.py",
         arguments=["diff_cont"],
-    )
+    )w
     delayed_diff_drive_spawner = RegisterEventHandler(
         event_handler=OnProcessStart(
             target_action=controller_manager,
