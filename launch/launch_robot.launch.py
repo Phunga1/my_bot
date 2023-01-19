@@ -60,7 +60,6 @@ def generate_launch_description():
     )
     # Launch them all!
     return LaunchDescription([
-        rsp,
         delayed_controller_manager,
         delayed_diff_drive_spawner,
         delayed_joint_broad_spawner
